@@ -1,38 +1,47 @@
+/* App.css */
+
+/* Styling for the entire application */
 .App {
   text-align: center;
+  padding: 20px;
+  background-color: #e7dfec; /* Light purple background */
+  color: #333; /* Dark text color */
+  font-family: Arial, sans-serif; /* Font family */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Heading styles */
+h1 {
+  margin-bottom: 20px; /* Bottom margin for spacing */
+  font-size: 32px; /* Larger font size */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  margin-top: 40px; /* Top margin for spacing */
+  font-size: 24px; /* Large font size */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd; /* Light gray border */
+  background-color: #fff; /* White background */
 }
 
-.App-link {
-  color: #61dafb;
+th,
+td {
+  border: 1px solid #d6d1d1; /* Light gray border */
+  padding: 12px;
+  background-color: #e2e6e7; /* Increased padding */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th {
+  background-color: #82b7d6; /* Light gray background for headers */
 }
+
+/* Alternate row background color */
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Lighter alternate row color */
+}
+
